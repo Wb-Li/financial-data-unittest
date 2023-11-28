@@ -1,2 +1,3 @@
 # financial-data-unittest
-use unittest to test financial data
+
+This Python script conducts unit tests on daily trading data for major Chinese A-share indices such as the CSI 300, CSI 500, and CSI 1000, as indicated by the code comments. It uses the unittest module to validate financial data stored in CSV files using Pandas DataFrames. The tests cover aspects such as missing or illegal values, ensuring that daily high prices are not lower than low prices, and checking that change ratios do not exceed 1. The script employs helper methods for error messaging and result handling. If any test fails, detailed error messages are provided, and the tests are executed when the script is run directly.
